@@ -9,16 +9,27 @@
 
     <title>homeFormulario</title>
     <!-- links css -->
-    <link rel="stylesheet" href="css-bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css-bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/checkout.css">
     <link rel="stylesheet"  href="form-validation.css">
-  </head>
+    
+    
 
-  <body class="bg-light">
-      <div class="container">
+</head>
 
+  <body>
+     <!-- menu com imagem -->
+  <nav class="container-fluid mb-4">
+      <nav class="navbar navbar-light">
+        <a class="navbar-brand" href="#">
+          <img src="img/sallus_marca300.png" width="70" height="50" class="d-inline-block align-top" alt="">
+          
+        </a>
+      </nav>
+    </nav>
+        
     <div class="container">
       <div class="py-5 text-center">
-        <img class="d-block mx-auto mb-4" src="../../assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
         <h2>Formulário de checkout</h2>
         <p class="lead">Preencha os campos abaixo</p>
       </div>
@@ -30,7 +41,10 @@
             <span class="badge badge-secondary badge-pill">3</span>
           </h4>
           <ul class="list-group mb-3">
-            <li class="list-group-item d-flex justify-content-between lh-condensed">
+            <li class="list-group-item d-flex justify-content-be*/.container-fluid{
+              background-color: rgba(172, 222, 215, 0.99); 
+             
+              }*/tween lh-condensed">
               <div>
                 <h6 class="my-0">Nome do produto</h6>
                 <small class="text-muted">Breve descrição</small>
@@ -94,19 +108,6 @@
             </div>
 
             <div class="mb-3">
-              <label for="nickname">Nickname</label>
-              <div class="input-group">
-                <div class="input-group-prepend">
-                  <span class="input-group-text">@</span>
-                </div>
-                <input type="text" class="form-control" id="nickname" placeholder="Nickname" required>
-                <div class="invalid-feedback" style="width: 100%;">
-                  Seu nickname é obrigatório.
-                </div>
-              </div>
-            </div>
-
-            <div class="mb-3">
               <label for="email">Email <span class="text-muted">(Opcional)</span></label>
               <input type="email" class="form-control" id="email" placeholder="fulano@exemplo.com">
               <div class="invalid-feedback">
@@ -123,7 +124,7 @@
             </div>
 
             <div class="mb-3">
-              <label for="endereco2">Endereço 2 <span class="text-muted">(Opcional)</span></label>
+              <label for="endereco2">Complemento <span class="text-muted">(Opcional)</span></label>
               <input type="text" class="form-control" id="endereco2" placeholder="Apartamento ou casa">
             </div>
 
@@ -142,7 +143,8 @@
                 <label for="estado">Estado</label>
                 <select class="custom-select d-block w-100" id="estado" required>
                   <option value="">Escolha...</option>
-                  <option>Acre</option>
+                  <option>puxar do Banco</option>
+                  
                 </select>
                 <div class="invalid-feedback">
                   Por favor, insira um estado válido.
@@ -217,12 +219,38 @@
               </div>
             </div>
             <hr class="mb-4">
-            <button class="btn btn-primary btn-lg btn-block" type="submit">Continue o checkout</button>
+            
+                <a class="btn btn-lg btn-primary " href="##">voltar</a>
+
+            <button class="btn btn-primary btn-lg " type="submit">Continue o checkout</button>
           </form>
         </div>
       </div>
 
       <footer class="my-5 pt-5 text-muted text-center text-small">
+          <div class="t-center p-l-15 p-r-15">
+              <a href="#">
+                <img class="h-size2" src="images/icons/paypal.png" alt="IMG-PAYPAL">
+              </a>
+        
+              <a href="#">
+                <img class="h-size2" src="images/icons/visa.png" alt="IMG-VISA">
+              </a>
+        
+              <a href="#">
+                <img class="h-size2" src="images/icons/mastercard.png" alt="IMG-MASTERCARD">
+              </a>
+        
+              <a href="#">
+                <img class="h-size2" src="images/icons/express.png" alt="IMG-EXPRESS">
+              </a>
+        
+              <a href="#">
+                <img class="h-size2" src="images/icons/discover.png" alt="IMG-DISCOVER">
+              </a>
+        
+              
+
         <p class="mb-1">&copy; 2017-2018 Nome da companhia</p>
         <ul class="list-inline">
           <li class="list-inline-item"><a href="#">Privacidade</a></li>
