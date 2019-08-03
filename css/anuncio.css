@@ -8,12 +8,6 @@
   background-color: #ebe6e6;
 }
 
-    element.style {
-    }
-
-    form#aiform {
-    }
-
     *, :after, :before {
       box-sizing: border-box;
   }
@@ -82,6 +76,7 @@ html {
   font-size:15px;
 
 }
-
-.btn-lg  {
+.page-footer{
+  background-color: #e3f2fd;
 }
+
