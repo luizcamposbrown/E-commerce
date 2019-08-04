@@ -12,36 +12,44 @@
 </head>
 
 <body>
-  <!-- menu de navegação -->
-  <nav class="navbar navbar-expand-lg navbar-light mb-5" style="background-color: #e3f2fd;">
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <a class="navbar-brand" href="#">
-            <img src="img/sallus-logo300x.png" width="70" height="50" class="d-inline-block align-top" alt="">
-          </a>
-          <li class="nav-item  active">
-            <a class="nav-link btn my-2" href="./index.html">Inicio</a>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="produtos.html">
+        <img src="img/sallus-logo300x.png" width="70" height="60" class="d-inline-block align-top" alt="">
+      </a>
+      <a class="navbar-brand" href="index.html">Sallus</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link btn my-2" href="./produtos.html">Produtos</a>
-          </li>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link btn my-2" href="./quemSomos.html">Quem somos</a>
+            <a class="nav-link" href="produtos.html">Produtos
+              <span class="sr-only">(current)</span>
+            </a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link btn my-2" href="./cadastro.html">Cadastrar-se</a>
+            <a class="nav-link" href="quemSomos.html">Qeum somos</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link btn my-2" href="./anuncie.html" tabindex="-1" aria-disabled="true">Anuncie</a>
+            <a class="nav-link" href="cadastro.html">Cadastre-se</a>
           </li>
+          <li class="nav-item active ">
+            <a class="nav-link" href="anuncie.html">Anuncie</a>
+          </li>
+          <li class="nav-item active ">
+            <a class="nav-link" href="login.html">Login</a>
+          </li>
+          <div class="nav-item active">
+            <a href="login.html" class="header-wrapicon1 dis-block m-r-9">
+              <img src="icons/user (1).png" class="header-icon1" alt="ICON">
+            </a>
         </ul>
-        <div class="header-icons">Login
-          <a href="login.html" class="header-wrapicon1 dis-block m-r-9">
-            <img src="icons/user (1).png" class="header-icon1" alt="ICON">
-          </a>
-        </div>
       </div>
-    </nav>  
+    </div>
+  </nav>
 
   <!-- section -->
 
@@ -61,8 +69,10 @@
     <hr class="line-blue">
 
     <p class="texts mb-5">
-      O projeto Sallus foi fundado no dia 12 de junho de 2019, dentro de um curso de Web Java Full Stack entre os amigos <b>
-      Caique, Giovanna, Luiz, Priscila e Vitor </b>. A iniciativa foi para poder apresentar como projeto final do curso,
+      O projeto Sallus foi fundado no dia 12 de junho de 2019, dentro de um curso de Web Java Full Stack entre os amigos
+      <b>
+        Caique, Giovanna, Luiz, Priscila e Vitor </b>. A iniciativa foi para poder apresentar como projeto final do
+      curso,
       porém a equipe foi além e fundou a start-up Loyals, uma empresa voltada para investir em causas sociais de pessoas
       físicas e transformá-los em realidade. O grande destaque para o projeto Sallus é em poder ajudar pessoas que
       possuem equipamentos fisioterápicos, ortopédicos e hospitalares parados em casa a recuperarem o dinheiro que foi
@@ -102,54 +112,54 @@
   </div>
   </div>
   </section>
-  
-   <!--footer-->
-   <footer class="page-footer font-small cyan darken-3">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 py-5">
-            <div class="mb-5 flex-center">
-  
-              <!-- linkedin -->
-              <a class="fb-ic" href="##">
-                <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                <img class="h-size2" src="icons/linkedin (1).png" alt="">
-              </a>
-              nosso linkedin
-  
-              <!-- email-->
-              <a class="tw-ic" href="">
-                <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                <img class="h-size2" src="icons/gmail.png" alt="">
-              </a>
-              fale conosco
-  
-              <!-- github-->
-              <a class="gplus-ic" href="https://github.com/CaiqueMatheus/Sallus">
-                <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                <img class="h-size2" src="icons/github-logo (2).png" alt="">
-              </a>
-              nosso Github
-  
-              <!--quem somos -->
-              <a class="li-ic" href="quemSomos.html">
-                <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                <img class="h-size2" src="icons/group (1).png" alt="">
-              </a>
-              quem somos
-  
-            </div>
+
+  <!--footer-->
+  <footer class="page-footer font-small cyan darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 py-5">
+          <div class="mb-5 flex-center">
+
+            <!-- linkedin -->
+            <a class="fb-ic" href="##">
+              <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+              <img class="h-size2" src="icons/linkedin (1).png" alt="">
+            </a>
+            nosso linkedin
+
+            <!-- email-->
+            <a class="tw-ic" href="">
+              <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+              <img class="h-size2" src="icons/gmail.png" alt="">
+            </a>
+            fale conosco
+
+            <!-- github-->
+            <a class="gplus-ic" href="https://github.com/CaiqueMatheus/Sallus">
+              <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+              <img class="h-size2" src="icons/github-logo (2).png" alt="">
+            </a>
+            nosso Github
+
+            <!--quem somos -->
+            <a class="li-ic" href="quemSomos.html">
+              <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+              <img class="h-size2" src="icons/group (1).png" alt="">
+            </a>
+            quem somos
+
           </div>
         </div>
       </div>
-  
-      <p class="text-center">O projeto Sallus foi fundado no dia 12 de junho de 2019</p>
-  
-      <div class="footer-copyright text-center py-3">© 2019 Generation:
-        <a href="index.html"> sallus</a>
-      </div>
-  
-    </footer>
+    </div>
+
+    <p class="text-center">O projeto Sallus foi fundado no dia 12 de junho de 2019</p>
+
+    <div class="footer-copyright text-center py-3">© 2019 Generation:
+      <a href="index.html"> sallus</a>
+    </div>
+
+  </footer>
 
   <!-- Import do jQuery + JS do Bootstrap -->
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
