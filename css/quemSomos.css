@@ -1,5 +1,25 @@
-.container { 
-    background-image: url(  );
-    
-
+.page-footer{
+    background-color: #e3f2fd;
 }
+
+body {
+    padding-top: 100px;
+  }
+
+  .mx-auto {
+    width: 15rem;
+    height: 16rem;
+  }
+
+  .page-section {
+    padding-top: 50px;
+    padding-bottom: 0px;
+    border-bottom: 0px;
+  }
+
+  .size-divs{
+    text-align: center;
+    
+    
+  }
+  

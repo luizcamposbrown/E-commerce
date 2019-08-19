@@ -1,11 +1,24 @@
+<<<<<<< HEAD
 .container-fluid{
     background-color: rgba(172, 222, 215, 0.99); 
    
     }
     
+=======
+>>>>>>> 0c060eed56a157d0cce6167a6d222e7059401a54
     
     body  {
       background-color: #ebe6e6;
     }
     
+<<<<<<< HEAD
    
+=======
+   .my-5 {
+     background-color: #e3f2fd;
+   }
+
+   .page-footer{
+    background-color: #e3f2fd;
+  }
+>>>>>>> 0c060eed56a157d0cce6167a6d222e7059401a54

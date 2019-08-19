@@ -1,3 +1,4 @@
+<<<<<<< HEAD:css/login.css
 
 
 .container-fluid{
@@ -17,6 +18,12 @@
   padding-top: 40px;
   padding-bottom: 40px;
   }
+=======
+  body{
+  background-color: #ebe6e6;
+  padding-top: 150px;
+}
+>>>>>>> 0c060eed56a157d0cce6167a6d222e7059401a54:css/login.css
 
 .form-signin {
   width: 100%;
@@ -47,3 +54,9 @@
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+
+.page-footer{
+  background-color: #e3f2fd;
+}
+
+
