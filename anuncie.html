@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!--links -->
+  <link rel="stylesheet" type="text/css" href="css-bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/anuncio.css">
+
+  <title>Anuncio</title>
+</head>
+
+<body>
+
+  <nav class="container-fluid mb-5">
+    <nav class="navbar navbar-light">
+      <a class="navbar-brand" href="#">
+        <img src="img/sallus_marca300.png" width="70" height="50" class="d-inline-block align-top" alt="">
+
+      </a>
+
+      <div class="header-icons">
+        <a href="login.html" class="header-wrapicon1 dis-block m-r-9">
+          <img src="icons/icon-header-01.png" class="header-icon1" alt="ICON">
+
+
+        </a>
+      </div>
+    </nav>
+  </nav>
+
+
+  <div class="container">
+    <div>
+      <h1 class="text-center mb-5 "> Descreva seu produto</h1>
+    </div>
+
+    <form>
+      <div class="form-group">
+        <label for="inputAddress">Nome do produto</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="cadeira/ muletas">
+      </div>
+      <div class="form-group">
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Descrição do produto</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="ex: cadeira de rodas, preta..."
+            rows="3"></textarea>
+        </div>
+
+      </div>
+      </ul>
+      <div class="form-group col-md-4">
+        <label for="inputState">Categorias</label>
+        <select id="inputState" class="form-control">
+          <option selected>escolher</option>
+          <option>Andadores</option>
+          <option>Avaliação e Medição </option>
+          <option> Barra de Apoio</option>
+          <option>Bengalas </option>
+          <option>Bolsas Térmicas</option>
+          <option>Cadeira de Rodas</option>
+          <option>Colchonetes e Cunhas</option>
+          <option>Guichos</option>
+          <option>Macas</option>
+          <option>Muletas</option>
+          <option>Òrteses e Proteses</option>
+          <option>Tornozeleiras</option>
+        </select>
+      </div>
+
+      <div class="o-grid__item -xs-24">
+        <div class="o-form__field"> <label class="o-label -top -space-large"> condição do produto </label>
+          <div class="o-grid__item -xs-shrink"> <label class="o-radio -xs-medium -md-large"> <input type="radio"
+                class="o-radio__input " id="radio-fe2521cb" name="product[used]" value="true"
+                data-bind="checked: data.used, checkedValue: true" data-validate="true" data-patterns="isChecked"
+                data-target="" data-action=""> <span class="o-radio__label"> usado
+              </span> </label> </div>
+          <div class="o-grid__item -xs-shrink"> <label class="o-radio -xs-medium -md-large"> <input type="radio"
+                class="o-radio__input " id="radio-857089c8" name="product[used]" value="false"
+                data-bind="checked: data.used, checkedValue: false" data-validate="true" data-patterns="isChecked"
+                data-target="" data-action=""> <span class="o-radio__label"> nunca
+                usado </span> </label> </div>
+    
+        </div>
+      </div>
+  </div>
+  </form>
+<br>
+
+  <div class="container">
+      <h3>Adicione imagens do produto</h3>
+    <br>
+    <br>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-2 imgUp">
+          <div class="imagePreview"></div>
+          <label class="btn btn-primary">
+            Upload<input type="file" class="uploadFile img" value="Upload Photo"
+              style="width: 0px;height: 0px;overflow: hidden;">
+          </label>
+        </div><!-- col-2 -->
+        <i class="fa fa-plus imgAdd"></i>
+      </div><!-- row -->
+    </div><!-- container -->
+
+    <br>
+
+    <div class="botão">
+      <a href="login.html" class="btn btn-secondary btn-lg active mb-5" role="button">voltar</a>      
+      <a href=" ##Criar no BD " class="btn btn-secondary btn-lg active mb-5" role="button">publicar</a>
+    </div>    
+
+  </div>
+  <!-- Import do jQuery + JS do Bootstrap -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/anuncio.js"></script>
+
+</body>
+
+</html>
